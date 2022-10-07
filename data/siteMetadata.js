@@ -4,7 +4,7 @@ const siteMetadata = {
   headerTitle: '@naskahkode',
   description: 'Hardware and Software Engineering, Data Science and Web Development.',
   language: 'en-us',
-  theme: 'system', // system, dark or light
+  theme: 'light', // system, dark or light
   siteUrl: 'naskahkode',
   siteRepo: 'https://github.com/faizalanwar/naskahkode',
   siteLogo: '/static/images/logo.png',
