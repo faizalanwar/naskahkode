@@ -6,7 +6,6 @@ import { getAllFilesFrontMatter } from '@/lib/mdx'
 import formatDate from '@/lib/utils/formatDate'
 import Image from 'next/image'
 
-import { RoughNotation } from 'react-rough-notation'
 import NewsletterForm from '@/components/NewsletterForm'
 
 const MAX_DISPLAY = 5
@@ -33,35 +32,10 @@ export default function Home({ posts }) {
                         side projects and learning new technologies.
                     </h2>
                     <p className="pt-5 text-lg leading-7 text-slate-600 dark:text-slate-300 sm:block md:hidden lg:hidden">
-                        This is my place for{' '}
-                        <RoughNotation
-                            animate="true"
-                            type="box"
-                            show={true}
-                            color="#DE1D8D"
-                            animationDelay={1000}
-                            animationDuration={2500}
-                            className="text-slate-200"
-                        >
-                            thoughts, reflections & everything&nbsp;
-                        </RoughNotation>
-                        in between. Have a good read!
+                        This is my place for{' '} mobile thoughts, reflections & everything&nbsp; in between. Have a good read!
                     </p>
                     <p className="hidden pt-10 text-lg leading-7 text-slate-600 dark:text-slate-300 md:block">
-                        This is my place for{' '}
-                        <RoughNotation
-                            animate="true"
-                            type="highlight"
-                            show={true}
-                            color="#DE1D8D"
-                            animationDelay={1000}
-                            animationDuration={2500}
-                            className="text-slate-200"
-                        >
-                            thoughts, reflections & everything&nbsp;
-                        </RoughNotation>
-                        in between. Have a good read!{' '}
-                        
+                        This is my place for{' '} desktop thoughts, reflections & everything&nbsp;  in between. Have a good read!{' '}
                     </p>
                 </div>
 
