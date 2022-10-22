@@ -32,13 +32,15 @@ const LayoutWrapper = ({ children }) => {
                 )}
               </div> */}
               <div className="text-primary-color dark:text-primary-color-dark flex items-center justify-between text-xl font-semibold">
-              {/* <div className="mr-3">{theme === '' ?  <DarkLogo /> : (theme === 'dark' ? <LightLogo />:<DarkLogo />) }</div> */}
-              <div className="mr-3">{theme === '' ?  <LightLogo /> : (theme === 'dark' ? <LightLogo />:<DarkLogo />) }</div>
+                {/* <div className="mr-3">{theme === '' ?  <DarkLogo /> : (theme === 'dark' ? <LightLogo />:<DarkLogo />) }</div> */}
+                <div className="mr-3">
+                  {theme === '' ? <LightLogo /> : theme === 'dark' ? <LightLogo /> : <DarkLogo />}
+                </div>
 
                 {/* {`~${router.asPath}`}{' '} */}
                 <Typewriter
                   options={{
-                    strings:router.asPath,
+                    strings: router.asPath,
                     autoStart: true,
                     loop: true,
                   }}
