@@ -5,6 +5,7 @@ import siteMetadata from '@/data/siteMetadata'
 import { getAllFilesFrontMatter } from '@/lib/mdx'
 import formatDate from '@/lib/utils/formatDate'
 import Image from 'next/image'
+import Model from '@/components/Model'
 
 import NewsletterForm from '@/components/NewsletterForm'
 
@@ -20,6 +21,11 @@ export default function Home({ posts }) {
   return (
     <>
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
+      <div className="">
+        {' '}
+        <Model />
+      </div>
+
       <div className="mb-12 flex flex-col items-center gap-x-12 xl:flex-row">
         <div className="pt-6">
           <h1 className="pb-6 text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
