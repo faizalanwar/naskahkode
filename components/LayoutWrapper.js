@@ -3,7 +3,7 @@ import headerNavLinks from '@/data/headerNavLinks'
 import { useTheme } from 'next-themes'
 import DarkLogo from '@/data/dark-logo.svg'
 import LightLogo from '@/data/light-logo.svg'
-import yellowLogo from '@/data/yellow-logo.svg'
+import YellowLogo from '@/data/yellow-logo.svg'
 import Link from './Link'
 import SectionContainer from './SectionContainer'
 import Footer from './Footer'
@@ -36,13 +36,14 @@ const LayoutWrapper = ({ children }) => {
                 {/* <div className="mr-3">{theme === '' ?  <DarkLogo /> : (theme === 'dark' ? <LightLogo />:<DarkLogo />) }</div> */}
                 <div className="mr-3">
                   {/* {theme === '' ? <LightLogo /> : theme === 'dark' ? <LightLogo /> : <DarkLogo />} */}
-                  <yellowLogo />
+                  <YellowLogo />
                 </div>
 
                 {/* {`~${router.asPath}`}{' '} */}
                 <Typewriter
                   options={{
-                    strings: router.asPath,
+                    strings: siteMetadata.headerTitle,
+                    // strings: router.asPath,
                     autoStart: true,
                     loop: true,
                   }}
