@@ -14,8 +14,8 @@ const siteMetadata = {
   github: 'https://github.com/faizalanwar/',
   twitter: 'https://twitter.com/Twitter',
   facebook: 'https://www.facebook.com/fzlanwr',
-//   youtube: 'https://www.youtube.com/channel/',
-//   linkedin: 'https://www.linkedin.com/company/',
+  //   youtube: 'https://www.youtube.com/channel/',
+  //   linkedin: 'https://www.linkedin.com/company/',
   locale: 'en-US',
   analytics: {
     // If you want to use an analytics provider you have to add it to the
@@ -36,19 +36,19 @@ const siteMetadata = {
     // content security policy in the `next.config.js` file.
     // Select a provider and use the environment variables associated to it
     // https://vercel.com/docs/environment-variables
-    provider: 'giscus', // supported providers: giscus, utterances, disqus
+    provider: 'disqus', // supported providers: giscus, utterances, disqus
     giscusConfig: {
       // Visit the link below, and follow the steps in the 'configuration' section
       // https://giscus.app/
-    //   repo: process.env.NEXT_PUBLIC_GISCUS_REPO,
-    //   repositoryId: process.env.NEXT_PUBLIC_GISCUS_REPOSITORY_ID,
-    //   category: process.env.NEXT_PUBLIC_GISCUS_CATEGORY,
-    //   categoryId: process.env.NEXT_PUBLIC_GISCUS_CATEGORY_ID,
-    
-      repo: "faizalanwar/naskahkode",
-      repositoryId: "R_kgDOIJUmpA",
-      category: "comment",
-      categoryId: "DIC_kwDOIJUmpM4CR2Ep",
+      //   repo: process.env.NEXT_PUBLIC_GISCUS_REPO,
+      //   repositoryId: process.env.NEXT_PUBLIC_GISCUS_REPOSITORY_ID,
+      //   category: process.env.NEXT_PUBLIC_GISCUS_CATEGORY,
+      //   categoryId: process.env.NEXT_PUBLIC_GISCUS_CATEGORY_ID,
+
+      repo: 'faizalanwar/naskahkode',
+      repositoryId: 'R_kgDOIJUmpA',
+      category: 'comment',
+      categoryId: 'DIC_kwDOIJUmpM4CR2Ep',
       mapping: 'pathname', // supported options: pathname, url, title
       reactions: '1', // Emoji reactions: 1 = enable / 0 = disable
       // Send discussion metadata periodically to the parent window: 1 = enable / 0 = disable
@@ -81,7 +81,7 @@ const siteMetadata = {
     },
     disqusConfig: {
       // https://help.disqus.com/en/articles/1717111-what-s-a-shortname
-      shortname: process.env.NEXT_PUBLIC_DISQUS_SHORTNAME,
+      shortname: 'naskahkode',
     },
   },
 }

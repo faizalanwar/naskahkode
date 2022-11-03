@@ -29,9 +29,9 @@ const Comments = ({ frontMatter }) => {
       {siteMetadata.comment && siteMetadata.comment.provider === 'utterances' && (
         <UtterancesComponent />
       )} */}
-      {siteMetadata.comment && siteMetadata.comment.provider === 'disqus' && (
-        <DisqusComponent frontMatter={frontMatter} />
-      )}
+      {/* {siteMetadata.comment && siteMetadata.comment.provider === 'disqus' && ( */}
+      <DisqusComponent frontMatter={frontMatter} />
+      {/* )} */}
     </div>
   )
 }
