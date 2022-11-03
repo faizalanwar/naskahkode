@@ -1,5 +1,5 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
-const gtag = `https://www.googletagmanager.com/gtag/js?id=UA-143317675-1`
+// const gtag = `https://www.googletagmanager.com/gtag/js?id=UA-143317675-1`
 class MyDocument extends Document {
   render() {
     return (
@@ -28,7 +28,7 @@ class MyDocument extends Document {
             src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8855531791863813`}
             crossOrigin="anonymous"
           />
-          <script async src={gtag} />
+          {/* <script async src={gtag} />
           <script
             dangerouslySetInnerHTML={{
               __html: `
@@ -39,6 +39,21 @@ class MyDocument extends Document {
                   page_path: window.location.pathname,
                 });
               `,
+            }}
+          /> */}
+
+          {/* Global Site Tag (gtag.js) - Google Analytics */}
+          <script async src={`https://www.googletagmanager.com/gtag/js?id=UA-143317675-1`} />
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'UA-143317675-1', {
+              page_path: window.location.pathname,
+            });
+          `,
             }}
           />
         </Head>
