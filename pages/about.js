@@ -32,7 +32,7 @@ export default function About({ authorDetails }) {
             good read!
           </p>
           <p className="hidden pt-10 text-lg leading-7 text-slate-600 dark:text-slate-300 md:block">
-            This is my place for desktop thoughts, reflections & everything&nbsp; in between. Have a
+            This is my place for explore, reflections & everything&nbsp; in between. Have a
             good read!{' '}
           </p>
         </div>
@@ -100,7 +100,7 @@ export default function About({ authorDetails }) {
             <div className="my-2 grid items-start gap-8">
               <div className="group relative">
                 <div className="animate-tilt absolute -inset-0.5 rounded-lg bg-gradient-to-r  from-pink-600 to-purple-600 opacity-50 blur transition duration-1000 group-hover:opacity-100 group-hover:duration-200"></div>
-                <Link href="/resume.pdf">
+                <Link href="https://naskahkode.vercel.app/resume.pdf">
                   <span className="relative flex items-center divide-x divide-gray-600 rounded-lg bg-white px-7 py-4 leading-none dark:bg-black">
                     <span className="flex items-center space-x-5">
                       <svg
