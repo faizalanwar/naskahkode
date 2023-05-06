@@ -1,11 +1,11 @@
 const siteMetadata = {
-  title: 'naskahkode',
+  title: 'Faizal Anwar Website',
   author: 'Faizal Anwar',
   headerTitle: '@naskahkode',
-  description: 'Hardware and Software Engineering, Data Science and Web Development.',
+  description: 'my personal website.',
   language: 'en-us',
   theme: 'light', // system, dark or light
-  siteUrl: 'naskahkode',
+  siteUrl: 'naskahkode.vercel.app',
   siteRepo: 'https://github.com/faizalanwar/naskahkode',
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.png',
