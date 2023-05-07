@@ -12,7 +12,7 @@ const siteMetadata = {
   socialBanner: '/static/images/twitter-card.png',
   email: 'mail@naskahkode',
   github: 'https://github.com/faizalanwar/',
-  twitter: 'https://twitter.com/Twitter',
+  twitter: 'https://twitter.com/fzlanwr',
   facebook: 'https://www.facebook.com/fzlanwr',
   instagram: 'https://www.instagram.com/fzlanwr',
   //   youtube: 'https://www.youtube.com/channel/',
