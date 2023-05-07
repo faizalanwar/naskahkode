@@ -14,6 +14,7 @@ const siteMetadata = {
   github: 'https://github.com/faizalanwar/',
   twitter: 'https://twitter.com/Twitter',
   facebook: 'https://www.facebook.com/fzlanwr',
+  instagram: 'https://www.instagram.com/fzlanwr',
   //   youtube: 'https://www.youtube.com/channel/',
   //   linkedin: 'https://www.linkedin.com/company/',
   locale: 'en-US',
