@@ -25,7 +25,7 @@ export default function About({ authorDetails }) {
           </h1>
           <h2 className="prose pt-5 text-lg text-gray-600 dark:text-gray-300">
             {`Welcome to ${siteMetadata.description}  I am a web programmer and ordinary employees. In my free time, I like developing `}
-            side projects and learning new technologies  This is my place for explore, reflections & everything&nbsp; in between. Have a good read! 
+            side projects and learning new technologies  This is my place for explore, reflections, everything in between. Have a good read! 
           </h2>
          
         </div>
