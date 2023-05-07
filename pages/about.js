@@ -26,10 +26,8 @@ export default function About({ authorDetails }) {
           <h2 className="prose pt-5 text-lg text-gray-600 dark:text-gray-300">
             {`Welcome to ${siteMetadata.description}  I am a web programmer and ordinary employees. In my free time, I like developing `}
             side projects and learning new technologies  This is my place for explore, reflections, everything in between. Have a good read! 
-          </h2>
-         
+          </h2>         
         </div>
-
         <div className="flex items-center justify-center">
           <div className="grid grid-cols-1 grid-rows-3 gap-8 py-12">
             <div className="my-2 grid items-start gap-8">
