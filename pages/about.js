@@ -33,7 +33,7 @@ export default function About({ authorDetails }) {
           </p>
           <p className="hidden pt-10 text-lg leading-7 text-slate-600 dark:text-slate-300 md:block">
             This is my place for explore, reflections & everything&nbsp; in between. Have a
-            good read!{' '}
+            good read! 
           </p>
         </div>
 
