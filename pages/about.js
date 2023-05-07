@@ -24,15 +24,10 @@ export default function About({ authorDetails }) {
             </span>
           </h1>
           <h2 className="prose pt-5 text-lg text-gray-600 dark:text-gray-300">
-            {`Welcome to ${siteMetadata.description}. I am a web programmer and ordinary employees. In my free time, I like developing `}
-            side projects and learning new technologies.
+            {`Welcome to ${siteMetadata.description}  I am a web programmer and ordinary employees. In my free time, I like developing `}
+            side projects and learning new technologies  This is my place for explore, reflections & everything&nbsp; in between. Have a good read! 
           </h2>
-          <p className="pt-5 text-lg leading-7 text-slate-600 dark:text-slate-300 sm:block md:hidden lg:hidden">
-            This is my place for explore, reflections & everything&nbsp; in between. Have a good read! 
-          </p>
-          <p className="hidden pt-10 text-lg leading-7 text-slate-600 dark:text-slate-300 md:block">
-            This is my place for explore, reflections & everything&nbsp; in between. Have a good read! 
-          </p>
+         
         </div>
 
         <div className="flex items-center justify-center">
